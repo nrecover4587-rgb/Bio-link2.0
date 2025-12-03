@@ -4,7 +4,7 @@ from pyrogram import Client
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import Message, CallbackQuery
 
-from MAFU import MAFU as app
+from Biolink import Biolink as app
 from config import OWNER_ID
 
 
