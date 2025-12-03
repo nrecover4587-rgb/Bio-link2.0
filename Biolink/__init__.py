@@ -44,4 +44,4 @@ async def MAFU_bot():
         BOT_NAME = getme.first_name
 
 
-loop.run_until_complete(MAFU_bot())
+loop.run_until_complete(Biolink_bot())
