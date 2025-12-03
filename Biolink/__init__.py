@@ -24,7 +24,7 @@ logging.basicConfig(
 
 
 MAFU = Client(
-    ":MAFU:",
+    ":Biolink:",
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
@@ -32,7 +32,7 @@ MAFU = Client(
 
 
 
-async def MAFU_bot():
+async def Biolink_bot():
     global BOT_ID, BOT_NAME, BOT_USERNAME
     await MAFU.start()
     getme = await MAFU.get_me()
@@ -44,4 +44,4 @@ async def MAFU_bot():
         BOT_NAME = getme.first_name
 
 
-loop.run_until_complete(MAFU_bot())
+loop.run_until_complete(Biolink_bot())
