@@ -1,7 +1,7 @@
 {
-  "name": "COPYRIGHT_PROTECTOR",
+  "name": "AloneMusic",
   "description": "Telegram Bot using Pyrogram",
-  "repository": "https://github.com/ITZSANATANI/COPYRIGHT",
+  "repository": "https://github.com/Aashik-team/Bio-link2.0",
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
