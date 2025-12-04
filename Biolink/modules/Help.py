@@ -21,8 +21,10 @@ async def show_help(_, query: CallbackQuery):
 async def help_admin(_, query: CallbackQuery):
     await query.message.edit_text(
         """**Admin Commands:**
-• /auth - Ban user
-• /rmauth - Ban user""",
+• /auth - bio user
+• /rmauth - bio user
+• /biolink on
+• /biolink off""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("« Back", callback_data="show_help")]]
         )
@@ -37,7 +39,8 @@ async def help_misc(_, query: CallbackQuery):
 • /start - Start the bot
 • /stats - Bot statistics
 • /addsudo - Add sudo user
-• /delsudo - Remove sudo""",
+• /delsudo - Remove sudo
+• /broadcast - broadcast""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("« Back", callback_data="show_help")]]
         )
