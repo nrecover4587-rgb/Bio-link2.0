@@ -2,10 +2,10 @@ import re
 import asyncio
 from pyrogram import filters, enums, errors
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from MAFU import MAFU as app
+from Biolink import Biolink as app
 from motor.motor_asyncio import AsyncIOMotorClient
 from config import MONGO_URL, OTHER_LOGS, BOT_USERNAME
-from MAFU.helper.auth import get_auth_users
+from Biolink.helper.auth import get_auth_users
 
 
 # ----------------- MongoDB -----------------
