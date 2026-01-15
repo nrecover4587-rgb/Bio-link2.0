@@ -22,7 +22,7 @@ START_BUTTONS = InlineKeyboardMarkup([
     [InlineKeyboardButton("• ᴀᴅᴅ ᴍᴇ •", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
     [InlineKeyboardButton("• ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ •", callback_data="show_help")],
     [
-        InlineKeyboardButton("• ʟᴏɢs •", url="https://t.me/+_zR_OAMZ6iE2YTBl"),
+        InlineKeyboardButton("• ʟᴏɢs •", url="https://t.me/+M_C0mb9OMHYyOGIx"),
         InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/cewefesbuk")
     ],
     [InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/PerfectseIler")]
