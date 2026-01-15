@@ -9,7 +9,7 @@ API_HASH = os.environ.get("API_HASH", "c17e4eb6d994c9892b8a8b6bfea4042a")
 # ------------------------------------------------
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Mafiyamusic_bot")
 
 # -----------------------------------------------
 
