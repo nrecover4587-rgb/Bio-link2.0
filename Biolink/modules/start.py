@@ -6,7 +6,7 @@ from config import OWNER_ID, BOT_USERNAME
 from Biolink import Biolink as app
 from Biolink.helper.database import add_user, add_chat
 
-START_IMG = "https://files.catbox.moe/05x8mv.jpg"
+START_IMG = "https://files.catbox.moe/epd7p5.jpg"
 
 def get_start_caption(user):
     return f"""
@@ -19,17 +19,17 @@ I delete messages with links and restrict users who have links in their bio.
 """
 
 START_BUTTONS = InlineKeyboardMarkup([
-    [InlineKeyboardButton("• ᴀᴅᴅ ᴍᴇ •", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+    [InlineKeyboardButton("• ᴀᴅᴅ ᴍᴇ •", url=f"https://t.me/{Mafiyamusic_bot}?startgroup=true")],
     [InlineKeyboardButton("• ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ •", callback_data="show_help")],
     [
-        InlineKeyboardButton("• ʟᴏɢs •", url="https://t.me/networkxlog"),
-        InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/shivang_xd")
+        InlineKeyboardButton("• ʟᴏɢs •", url="https://t.me/+_zR_OAMZ6iE2YTBl"),
+        InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/cewefesbuk")
     ],
-    [InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/shivang_mishra_op")]
+    [InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/PerfectselIer")]
 ])
 
 PRIVATE_START_BUTTON = InlineKeyboardMarkup([
-    [InlineKeyboardButton("• ᴘʀɪᴠᴀᴛᴇ ꜱᴛᴀʀᴛ •", url=f"https://t.me/{BOT_USERNAME}?start=help")]
+    [InlineKeyboardButton("• ᴘʀɪᴠᴀᴛᴇ ꜱᴛᴀʀᴛ •", url=f"https://t.me/{Mafiyamusic_bot}?start=help")]
 ])
 
 @app.on_message(filters.command("start") & (filters.private | filters.group))
