@@ -6,7 +6,7 @@ from config import OWNER_ID, BOT_USERNAME
 from Biolink import Biolink as app
 from Biolink.helper.database import add_user, add_chat
 
-START_IMG = "https://files.catbox.moe/jo8qg7.jpg"
+START_IMG = "https://files.catbox.moe/79fxms.jpg"
 
 def get_start_caption(user):
     return f"""
